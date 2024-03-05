@@ -25,9 +25,9 @@ from System.Drawing import Point as pt
 
 # min_thickness = 0
 # max_thickness = 10
-extent_surf = True
+# extent_surf = True
 
-methode_by_body = True
+# methode_by_body = True
 
 def main():
     min_thickness = int(inputBox("min_thickness", "Min thickness(mm):", "0"))
