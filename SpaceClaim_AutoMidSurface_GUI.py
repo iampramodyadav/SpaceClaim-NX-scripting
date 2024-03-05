@@ -176,6 +176,24 @@ def extract_mid_surf(bdy):
 
 
 def inputBox(title, prompt, defaultValue):
+    """
+    Displays a modal dialog box with a title, prompt, and a text box for user input.
+    
+    Args:
+        title (str): The title of the dialog box.
+        prompt (str): The text displayed above the input text box.
+        defaultValue (str): The initial text displayed in the input text box.
+    
+    Returns:
+        str: The text entered by the user, or the `defaultValue` if the user enters nothing.
+    
+    Raises:
+        NotImplementedError: If the `WinForms` library is not available.
+    
+    This function uses the `WinForms` library to create a modal dialog box with a title, prompt, and a text box. The `defaultValue` is displayed in the text box initially. The user can enter their own text, or leave the default value and simply click the "OK" button. Clicking the "OK" button closes the dialog box and the function returns the text entered by the user, or the `defaultValue` if the user entered nothing.
+    
+    **Note:** This function requires the `WinForms` library to be installed and imported. If `WinForms` is not available, a `NotImplementedError` is raised.
+"""
     form = WinForms.Form()
     form.Text = title
     label = WinForms.Label()
@@ -193,4 +211,7 @@ def inputBox(title, prompt, defaultValue):
     form.Controls.Add(button)
     form.ShowDialog()
     return textBox.Text
+
+# EOF
+# RUN
 main()
