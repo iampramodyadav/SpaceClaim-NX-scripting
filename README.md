@@ -17,6 +17,7 @@ Note:
  * The script uses the Midsurface and MidsurfaceOptions
 
  classes from the Ansys SpaceClaim API.
+
 '''py
 Example
 min_thickness = 2
