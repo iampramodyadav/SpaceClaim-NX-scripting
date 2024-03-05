@@ -19,12 +19,14 @@ Note:
  classes from the Ansys SpaceClaim API.
 
 '''py
+
 Example
 min_thickness = 2
 max_thickness = 5
 methode_by_body = True
 
 main()
+
 '''
 
 This example will extract midsurfaces from all solid bodies in the Ansys SpaceClaim design with a thickness between 2 and 5 mm using the "By Body" method. The extracted midsurfaces will be renamed based on the component name.
