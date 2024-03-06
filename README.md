@@ -26,6 +26,7 @@ Note:
 
 min_thickness = 2
 max_thickness = 5
+extent_surf = True
 methode_by_body = True
 
 main()
