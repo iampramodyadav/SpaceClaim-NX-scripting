@@ -3,6 +3,8 @@ Spaceclaim and NX automation scripts
 
 ---
 
+**[SpaceClaim_AutoMidSurface](https://github.com/iampramodyadav/SpaceClaim-NX-scripting/blob/main/SpaceClaim_AutoMidSurface_GUI.py)**
+
 ## Overview
 
 This Python script automates the extraction of midsurfaces from solid bodies within an Ansys SpaceClaim design. It offers two extraction methods:
