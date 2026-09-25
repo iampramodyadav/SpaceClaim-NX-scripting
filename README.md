@@ -1,6 +1,8 @@
 # spcaceclaim-nx-scripts
 Spaceclaim and NX automation scripts
 
+https://docs.sw.siemens.com/en-US/doc/209349590/PL20221117716122093.xid1968491/xid2091711?pk_vid=6f5431783c1216246068ece3bd5784481790360390a08900
+
 ---
 
 **[SpaceClaim_AutoMidSurface](https://github.com/iampramodyadav/SpaceClaim-NX-scripting/blob/main/SpaceClaim_AutoMidSurface_GUI.py)**
